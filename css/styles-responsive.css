@@ -43,7 +43,7 @@
   }
   .right, .left {
     float: none;
-    position: static;
+    position: static; /*para resetear los positions*/
   }
 
   .contenedor-cafe-a {
@@ -73,7 +73,7 @@
 
 /* FIN DE TABLET */
 
-/* Cualquier dimension que sea inferior a 767 vamos a cambiar al footer*/
+/* Cualquier dimension que sea < a 767 vamos a cambiar al footer*/
 
 @media screen and (max-width: 767px) {
   /* footer */
@@ -227,7 +227,7 @@
     font-size: 35px;
   }
   .title-a {
-    font-size: 15px;
+    font-size: 16px;
   }
   /* FIN DE PORTADA */
 
